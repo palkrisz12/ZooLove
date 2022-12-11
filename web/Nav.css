@@ -35,6 +35,9 @@ li a:hover:not(.active) {
 }
 
 p {
-    color: navy;
+    color: black;
     text-indent: 30px;
+}
+p {
+    font-family: "Times New Roman", Times, serif;
 }
