@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="NavBar">
-      <change afterPath="$PROJECT_DIR$/asd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kepek/dev1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kepek/zoolove1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kepek/zoolove2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kepek/zoolove3.jpg" afterDir="false" />
+    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Harmadik Commit">
+      <change afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Kapcsolat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/bakcso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/dev1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/dev2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/dev3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/fazekas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/fej1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/fej2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/fej3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/tozike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/tunderrozsa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZooLove_1.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +41,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Main.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670766414480</updated>
-      <workItem from="1670766418344" duration="5035000" />
+      <workItem from="1670766418344" duration="6891000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
@@ -106,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670769331169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Harmadik Commit">
+      <created>1670771537329</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670771537329</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +143,11 @@
     <MESSAGE value="asd" />
     <MESSAGE value="elso commit" />
     <MESSAGE value="NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="NavBar" />
+    <MESSAGE value="Harmadik Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Harmadik Commit" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>
