@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Harmadik Commit">
-      <change afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Kapcsolat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/asd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/bakcso.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/dev1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/dev2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/dev3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/fazekas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/fej1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/fej2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/fej3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/tozike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/tunderrozsa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kepek/zoolove3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Kapcsolat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kapcsolat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Kereses.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="palkrisz12 &lt;palkrisztian10@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,7 +54,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Project/ZooLove",
     "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "web-ide.project.structure",
     "vue.rearranger.settings.migration": "true"
@@ -85,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670766414480</updated>
       <workItem from="1670766418344" duration="6891000" />
+      <workItem from="1670792308495" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670771537329</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Harmadik Commit">
+      <created>1670794177768</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670794177768</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="asd" />
     <MESSAGE value="elso commit" />
     <MESSAGE value="NavBar" />
+    <MESSAGE value="SB commit1" />
     <MESSAGE value="Harmadik Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Harmadik Commit" />
   </component>
