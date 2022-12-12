@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Merge remote-tracking branch 'origin/Krisztian' into Krisztian">
+    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Negyedik Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/web/Kereses.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/asd.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/asd.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670766414480</updated>
       <workItem from="1670766418344" duration="6891000" />
-      <workItem from="1670792308495" duration="4522000" />
+      <workItem from="1670792308495" duration="11369000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670795386410</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Negyedik Commit">
+      <created>1670797107350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670797107350</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +168,8 @@
     <MESSAGE value="Harmadik Commit" />
     <MESSAGE value="SB commit1" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Krisztian' into Krisztian" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Krisztian' into Krisztian" />
+    <MESSAGE value="Negyedik Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Negyedik Commit" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
