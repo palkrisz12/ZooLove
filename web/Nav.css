@@ -10,8 +10,10 @@ ul {
 }
 
 li {
+
     float: left;
     border-right:1px solid #bbb;
+
 }
 
 li:last-child {
@@ -27,7 +29,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: limegreen;
 }
 
 .active {
