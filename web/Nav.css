@@ -40,3 +40,38 @@ p {
     color: black;
     text-indent: 30px;
 }
+
+input[type=text], input[type=password] {
+    width: 25vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25vw;
+}
+
+.centered {
+    margin:auto;
+    display: block;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    grid-template-areas: "input";
+}
+
+.centered {
+    grid-area: input;
+}

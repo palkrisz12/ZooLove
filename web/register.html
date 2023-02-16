@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="Nav.css">
+    <title>Regisztráció</title>
+</head>
+<body>
+
+<div id = "nav-placeholder">
+</div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("navbar.html");
+    });
+</script>
+
+<br>
+<br>
+<br>
+
+<form method="post" action="submit.php">
+<div class="container">
+
+    <h1><label name="fnevl"><b>Felhasználónév</b></label> <br></h1>
+    <input type="text" class placeholder="Felhasználónév" name="fnev" required>
+
+    <h1><br> <label name="pswl"><b>Jelszó</b></label> <br> </h1>
+    <input type="password" placeholder="Add meg a jelszót!" name="psw" required>
+    <h1><br> <label name="pswl1"><b>Jelszó megismétlése</b></label> <br> </h1>
+    <input type="password" placeholder="Add meg a jelszót!" name="psw1" required>
+    <h1><br> <label name="imell"><b>Email</b></label> <br> </h1>
+    <input type="text" placeholder="Add meg az email-cimed!" name="imell" required>
+
+
+    <br>
+    <button type="submit">Regisztrálok</button>
+
+
+</div>
+</form>
+</body>
+</html>

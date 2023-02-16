@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Negyedik Commit">
-      <change afterPath="$PROJECT_DIR$/web/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/navbar.js" afterDir="false" />
+    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva">
+      <change afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/usersave.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Kapcsolat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kapcsolat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Kereses.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670797107350</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva">
+      <created>1676553551166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676553551166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +183,8 @@
     <MESSAGE value="SB commit1" />
     <MESSAGE value="Merge remote-tracking branch 'origin/Krisztian' into Krisztian" />
     <MESSAGE value="Negyedik Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Negyedik Commit" />
+    <MESSAGE value="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva" />
+    <option name="LAST_COMMIT_MESSAGE" value="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
