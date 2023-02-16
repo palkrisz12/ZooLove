@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="hu">
+<!-- #include virtual="../navbar.html"-->
+<html lang="hu" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Nav.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+
     <title>Kezdőlap</title>
 
 </head>
 <body>
+<div id = "nav-placeholder">
+</div>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("navbar.html");
+    });
+</script>
 
 
-<nav>
-    <ul>
-        <li style="background: limegreen; "><a href="Main.html">Kezdőlap</a></li>
-        <li><a href="Allatok_tomen.html">Állatok</a></li>
-        <li><a href="Kereses.html">Keresés</a></li>
-        <li><a href="Kapcsolat.html">Kapcsolat</a></li>
-        <li style="float:right"><a href="Developers.html">Fejlesztők</a></li>
-    </ul>
-</nav>
 
 <div>
 
