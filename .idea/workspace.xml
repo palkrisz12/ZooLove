@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva">
-      <change afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/usersave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/usersave.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/usersave.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -93,6 +96,8 @@
       <workItem from="1670792308495" duration="11369000" />
       <workItem from="1675607484838" duration="2371000" />
       <workItem from="1675610077807" duration="1412000" />
+      <workItem from="1676639199892" duration="2881000" />
+      <workItem from="1676730229757" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
@@ -157,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676553551166</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva">
+      <created>1676571948573</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676571948573</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

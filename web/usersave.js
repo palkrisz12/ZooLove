@@ -1,24 +1,14 @@
-function saveUser()
-{
-    const email = document.getElementById('email').value;
-    if (checkAvailability(email)) { const nev = document.getElementById('nev').value;
-        const kor = document.getElementById('kor').value;
-        let user = {
-            nev,
-            kor,
-            email,
-            date: new Date(),
-            id: users.length
-        }
-        users.push(user);
-        console.log(users);
+function saveUser() {
+    const email = document.getElementById('imell').value;
+    const nev = document.getElementById('fnev').value;
+    const password = document.getElementById('psw').value;
+    let user = {
+        nev,
+        password,
+        email,
+        id: users.length
     }
-}function checkAvailability(email){
-    let user;
-    for (user of users) {
-        if (user.email === email) {
-            alert("Az email cim mar foglalt!");
-            return false;
-        }
-    }
-    return true;}
+    users.push(user);
+    console.log(users);
+
+}
