@@ -1,32 +1,68 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="hu" dir="ltr" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-  <link rel="stylesheet" href="Nav.css">
+    <link rel="stylesheet" href="kapcsolat.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link rel="stylesheet" href="Nav.css">
     <title>Kapcsolat</title>
 </head>
 <body>
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<center><font size="20">Elérhetőségeink:</font></center>
 <div id = "nav-placeholder">
 </div>
 
 <script>
-  $(function(){
-    $("#nav-placeholder").load("navbar.html");
-  });
+    $(function(){
+        $("#nav-placeholder").load("navbar.html");
+    });
 </script>
-
-
-
-<center><font size="20">Elérhetőségeink:</font></center>
-<br>
-<center><font size="+2">Email: ZooLove@gmail.com</font></center>
-<center><font size="+2">Mobil: +381 69 110086</font></center>
-
-
+<div class="container">
+    <div class="content">
+        <div class="left-side">
+            <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Cím</div>
+                <div class="text-one">Posta utca 18.</div>
+                <br>
+            </div>
+            <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Mobil</div>
+                <div class="text-one">+381 69 110086</div>
+                <br>
+            </div>
+            <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">Zoolove@gmail.com</div>
+                <br>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="topic-text">Küldj üzenetet</div>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Írd be a neved">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Írj be egy emailt">
+                </div>
+                <textarea id="input-box" name="input-box" rows="4" cols="50">
+                </textarea>
+                <div class="button">
+                    <input type="button" value="Küldés" >
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
