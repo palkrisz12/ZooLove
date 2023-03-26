@@ -56,7 +56,8 @@
             const xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function () {
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
-                    const loader = document.getElementById("loader");
+                    const result = JSON.parse(xhttp.responseText);
+                    console.log(result);
                     alert("sikeres mentes");
 
 
