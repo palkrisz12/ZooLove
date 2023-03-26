@@ -34,15 +34,18 @@
     <input id="email" type=email required placeholder="Email-cim">
     <h1><label>Szuletesi ev</label></h1>
     <input id="age" type=number min="1900" max="2012" required placeholder="Szuletesi ev">
-    <button onclick="trySave()">Regisztracio</button>
+    <button onclick=saveAndOpenPage()>Regisztracio</button>
 
 
 </div>
 
-<div id="loader" ></div>
+
 <script type="application/javascript">
-
-
+    function saveAndOpenPage() {
+        trySave();
+        window.location.href = 'login.html';
+        alert("Jelentkezz be!")
+    }
     function trySave()
     {
         const uName = document.getElementById("userName").value;
@@ -58,7 +61,7 @@
                 if (xhttp.readyState == 4 && xhttp.status == 200) {
                     const result = JSON.parse(xhttp.responseText);
                     console.log(result);
-                    alert("sikeres mentes");
+                    alert("Sikeres mentes!");
 
 
                 }

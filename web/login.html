@@ -23,11 +23,33 @@
     <div class="container">
 
         <h1><label name="fnevl"><b>Felhasználónév</b></label></h1>
-        <input type="text" class placeholder="Felhasználónév" id="fnev" name="fnev" required>
+        <input type="text"  placeholder="Felhasználónév" id="uName" required>
         <h1><label name="pswl"><b>Jelszó</b></label></h1>
-        <input type="password" placeholder="Add meg a jelszót!" id="psw" name="psw" required>
-        <button type="submit">Bejelentkezem</button>
+        <input type="password" placeholder="Add meg a jelszót!" id="password"  required>
+        <button onclick="login()">Bejelentkezem</button>
     </div>
+
+    <script type="application/javascript">
+        function saveAndOpenPage() {
+            trySave();
+            window.location.href = 'login.html';
+            alert("Jelentkezz be!")
+        }
+        function login()
+        {
+
+            const params = new URLSearchParams(
+                {
+                    "userName":uName,
+                    "password":password
+                })
+
+            xhttp.open("POST", "./welcome.php" + params.toString());
+            xhttp.send();
+        }
+
+    </script>
+
 
 </form>
 </body>
