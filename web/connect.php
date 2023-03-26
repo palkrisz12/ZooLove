@@ -1,22 +1,33 @@
 <?php
-    $fnev = $_POST['fnev'];
-    $psw = $_POST['psw'];
-    $imell = $_POST['imell'];
+$dbconn = mysqli_connect("localhost", "root", "", "users");
+if(mysqli_connect_error()){
+    die("Hiba:".mysqli_connect_error());
+}
 
-    $conn = new mysqli('localhost','root', '', 'users');
-    if($conn -> connect_error){
-        die('Connection failed : '. $conn -> connect_error);
+if(isset($_GET["userName"]) && isset($_GET["password"]) && isset($_GET["firstName"]) && isset($_GET["lastName"]) && isset($_GET["email"]) && isset($_GET["age"])){
+
+    $username = $_GET["userName"];
+    $password = $_GET["password"];
+    $firstname = $_GET["firstName"];
+    $lastname = $_GET["lastName"];
+    $email = $_GET["email"];
+    $age = $_GET["age"];
+
+    $sql = "INSERT INTO users (username ,firstname, lastname, age, email, password) VALUES (?, ?, ?, ?, ?, ?);";
+    $stmt = mysqli_prepare($dbconn, $sql);
+    $stmt->bind_param('ssssss', $username, $firstname, $lastname, $age, $email, $password);
+
+    mysqli_stmt_execute($stmt);
+    if(mysqli_stmt_error($stmt)){
+        die("Hiba".mysqli_stmt_error($stmt));
     }
-    else{
-        $stmt = $conn ->prepare("insert into felh(fnev,psw,imell) values(?, ?, ?)");
-        $stmt -> bind_param("sss", $fnev, $psw, $imell);
-        $stmt -> execute();
-        echo "Registration succesfull!";
-        $stmt -> close();
-        $conn -> close();
-
-    }
 
 
 
+    $id = mysqli_insert_id($dbconn);
+    echo json_encode($id);
+
+} else {
+    echo json_encode(array("error" => "Could not connect to database."));
+}
 ?>

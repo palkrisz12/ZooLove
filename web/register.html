@@ -21,28 +21,65 @@
 <br>
 <br>
 
-<form action="connect.php" method="post">
 <div class="container">
-
-    <h1><label name="fnevl"><b>Felhasználónév</b></label> <br></h1>
-    <input type="text" class placeholder="Felhasználónév" id="fnev" name="fnev" required>
-
-    <h1><br> <label name="pswl"><b>Jelszó</b></label> <br> </h1>
-    <input type="password" placeholder="Add meg a jelszót!" id="psw" name="psw" required>
-    <h1><br> <label name="pswl1"><b>Jelszó megismétlése</b></label> <br> </h1>
-    <input type="password" placeholder="Add meg a jelszót!" id="psw1"  name="psw1" required>
-    <h1><br> <label name="imell"><b>Email</b></label> <br> </h1>
-    <input type="text" placeholder="Add meg az email-cimed!"  id="imell" name="imell" required>
-
-
-    <br>
-    <button type="submit">Regisztrálok</button>
+    <h1><label>Felhasznalonev</label></h1>
+    <input id="userName" type=text required placeholder="Felhasznalonev">
+    <h1><label>Jelszo</label></h1>
+    <input id="password" type=password required placeholder="Jelszo">
+    <h1><label>Vezeteknev</label></h1>
+    <input id="lastName" type=text required placeholder="Vezeteknev">
+    <h1><label>Keresztnev</label></h1>
+    <input id="firstName" type=text required placeholder="Keresztnev">
+    <h1><label>Email-cim</label></h1>
+    <input id="email" type=email required placeholder="Email-cim">
+    <h1><label>Szuletesi ev</label></h1>
+    <input id="age" type=number min="1900" max="2012" required placeholder="Szuletesi ev">
+    <button onclick="trySave()">Regisztracio</button>
 
 
 </div>
-</form>
+
+<div id="loader" ></div>
+<script type="application/javascript">
 
 
+    function trySave()
+    {
+        const uName = document.getElementById("userName").value;
+        const password = document.getElementById("password").value;
+        const lName = document.getElementById("lastName").value;
+        const fName = document.getElementById("firstName").value;
+        const email = document.getElementById("email").value;
+        const age = document.getElementById("age").value;
+
+        if(lName && fName && email && uName && password) {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (xhttp.readyState == 4 && xhttp.status == 200) {
+                    const loader = document.getElementById("loader");
+                    alert("sikeres mentes");
+
+
+                }
+            }
+            const params = new URLSearchParams(
+                {
+                    "userName":uName,
+                    "password":password,
+                    "firstName": fName,
+                    "lastName": lName,
+                    "email": email,
+                    "age": age
+                })
+            xhttp.open("GET", "./connect.php?" + params.toString());
+            xhttp.send();
+        }
+        else
+        {
+            alert("Minden mezot tolts ki!");
+        }
+
+    }</script>
 
 </body>
 </html>
