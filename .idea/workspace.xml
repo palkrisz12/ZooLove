@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="otodik commit, nem sikerul megoldani azt az atkozott phpt, dogolne meg">
+      <change afterPath="$PROJECT_DIR$/web/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
