@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="otodik commit, nem sikerul megoldani azt az atkozott phpt, dogolne meg">
-      <change afterPath="$PROJECT_DIR$/web/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome.php" afterDir="false" />
-    </list>
+    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Developers file fejlesztése" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +97,7 @@
       <workItem from="1676730229757" duration="4062000" />
       <workItem from="1679839171768" duration="607000" />
       <workItem from="1679850743681" duration="1533000" />
+      <workItem from="1679902556308" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
@@ -187,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679838840905</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Developers file fejlesztése">
+      <created>1679902741456</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902741456</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +219,8 @@
     <MESSAGE value="Otodik commit, kozos oldalon a navbar, mindenhova csak importalva" />
     <MESSAGE value="Megprobaltam adatabazisban eltarolni az adatokat, de 502 bad gatewayt dob ki, ugy ezt most arrebb tesszuk es majd maskor eloveszem" />
     <MESSAGE value="otodik commit, nem sikerul megoldani azt az atkozott phpt, dogolne meg" />
-    <option name="LAST_COMMIT_MESSAGE" value="otodik commit, nem sikerul megoldani azt az atkozott phpt, dogolne meg" />
+    <MESSAGE value="Developers file fejlesztése" />
+    <option name="LAST_COMMIT_MESSAGE" value="Developers file fejlesztése" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
