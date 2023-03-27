@@ -5,6 +5,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="Nav.css">
     <title>Fejlesztők</title>
+    <link rel="stylesheet" href="Dev.css">
 </head>
 <body>
 <div id = "nav-placeholder">
@@ -16,30 +17,52 @@
     });
 </script>
 
+<style>
+    .image-row {
+        display: flex;
+        justify-content: center;
+    }
 
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 
-<div>
-    <p>asd</p>
+    .image-container img {
+        border: 2px solid #ccc;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .image-container p {
+        text-align: center;
+        margin-top: 5px;
+    }
+</style>
+<br>
+<br>
+<br>
+<br>
+<div class="image-row">
+    <div class="image-container">
+        <img src="kepek/dev2.jpg" width="350px" length="350px">
+        <h1><p>Csikós Noé</p></h1>
+        <p>Vicces szoveg</p>
+    </div>
+    <div class="image-container">
+        <img src="kepek/dev1.jpg" width="350px" length="350px">
+        <h1><p>Pál Krisztián</p></h1>
+        <p>Vicces szoveg</p>
+    </div>
+    <div class="image-container">
+        <img src="kepek/dev3.jpg" width="350px" length="350px">
+        <h1><p>Stausz Bence</p></h1>
+        <p>Vicces szoveg</p>
+    </div>
 </div>
-<div>
-    <h2>Csikós Noé</h2>
-    <img src=kepek/dev2.jpg width="200" height="200">
-    <p>Ez itt egy vicces szöveg</p>
-</div>
-
-<div>
-    <h2>Stausz Bence</h2>
-    <img src=kepek/dev3.jpg width="200" height="200">
-    <p>Ez itt egy vicces szöveg</p>
-</div>
-
-<div>
-    <h2>Pál Krisztián</h2>
-    <img src=kepek/dev1.jpg width="200" height="200">
-    <p>Ez itt egy vicces szöveg</p>
-</div>
-
-
 
 </body>
 </html>
