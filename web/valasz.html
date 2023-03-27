@@ -21,15 +21,45 @@
 <br>
 <br>
 <br>
+<style>
+    .image-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .image-container img {
+        border: 2px solid #ccc;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+
+    .image-container p {
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+</style>
 <center><font size="20">Kérem válasszon nemet:</font></center>
 <table>
+    <div class="image-row">
     <tr>
+        <div class="image-container">
         <th><a href="himlo.html">
-            <img src="kepek/him.png" border="5px" width=400px height=400px align="center"><p>Hím</p>
-        </a></th>
+            <img src="kepek/him.png" border="5px" width=400px height=400px><p>Hím</p>
+        </a></th></div>
+        <div class="image-container">
         <th><a href="nolo.html">
-            <img src="kepek/No.png" border="5px" width=400px height=400px style="margin:0 8px;"><p>Nő</p>
-        </a></th>
-
+            <img src="kepek/No.png" border="5px" width=400px height=400px"><p>Nő</p>
+        </a></th></div>
+    </tr></div>
+    </table>
 </body>
 </html>
