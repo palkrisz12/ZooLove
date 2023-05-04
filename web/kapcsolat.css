@@ -5,14 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
 }
-body{
-    min-height: 100vh;
-    width: 100%;
-    background: #c8e8e9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .container{
     width: 85%;
     background: #fff;
@@ -51,7 +44,7 @@ body{
 }
 .content .left-side .details i{
     font-size: 30px;
-    color: #3e2093;
+    color: limegreen;
     margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -70,7 +63,7 @@ body{
 .content .right-side .topic-text{
     font-size: 23px;
     font-weight: 600;
-    color: #3e2093;
+    color: limegreen;
 }
 .right-side .input-box{
     height: 50px;
@@ -106,12 +99,12 @@ body{
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #3e2093;
+    background: limegreen;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-    background: #5029bc;
+    background: limegreen;
 }
 
 @media (max-width: 950px) {
