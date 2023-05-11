@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" href="Nav.css">
-    <title>Regisztráció</title>
+    <title>Allatfeltoltes</title>
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 
 <script>
     $(function(){
-        $("#nav-placeholder").load("navbar.html");
+        $("#nav-placeholder").load("lognavbar.html");
     });
 </script>
 
@@ -22,21 +22,21 @@
 <br>
 
 <div class="container">
-    <form action="./connect.php" method="POST">
-        <h1><label>Felhasznalonev</label></h1>
-        <input name="userName" type=text required placeholder="Felhasznalonev">
-        <h1><label>Jelszo</label></h1>
-        <input name="password" type=password required placeholder="Jelszo">
-        <h1><label>Vezeteknev</label></h1>
-        <input name="lastName" type=text required placeholder="Vezeteknev">
-        <h1><label>Keresztnev</label></h1>
-        <input name="firstName" type=text required placeholder="Keresztnev">
-        <h1><label>Email-cim</label></h1>
-        <input name="email" type=email required placeholder="Email-cim">
+    <form action="./allat.php" method="POST">
+        <h1><label>Nev</label></h1>
+        <input name="name" type=text required placeholder="name">
+        <h1><label>Faj</label></h1>
+        <input name="species" type=text required placeholder="species">
+        <h1><label>Nem</label></h1>
+        <input name="sex" type=text required placeholder="sex">
+        <h1><label>Leiras</label></h1>
+        <input name="descr" type=text required placeholder="desc">
         <h1><label>Szuletesi ev</label></h1>
         <input name="age" type=number min="1900" max="2012" required placeholder="Szuletesi ev">
+        <h1><label>Kep eleresi utvonala</label></h1>
+        <input name="pic" type=text required placeholder="Utvonal">
         <br>
-        <input type=submit onclick=saveAndOpenPage() value="Regisztracio" name="Regisztracio">
+        <input type=submit  value="Hozzaad" name="Hozzaad">
     </form>
 
 </div>

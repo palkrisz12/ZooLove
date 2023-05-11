@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <link rel="stylesheet" href="Nav.css">
+  <title>Kereső</title>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<form method=POST action="kutya.php">
+    <input type=text value="" name="kutya">
+    <input type="submit">
+</form>
+
+<div id = "nav-placeholder">
+</div>
+
+<?php
+session_start();
+
+if(isset($_SESSION['user']))
+    $username = $_SESSION['user'];
+else
+    $username = NULL;
+
+if(isset($_SESSION['user']) == NULL)
+{
+    ?>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+  });
+</script>
+<?php
+}
+else
+{
+?>
+<br>
+<br>
+<br>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("lognavbar.html");
+  });
+</script>
+<?php
+}
+
+?>
+</nav>
+</body>
+</html>

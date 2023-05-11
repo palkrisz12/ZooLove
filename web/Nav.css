@@ -50,7 +50,7 @@ input[type=text], input[type=password] , input[type=email], input[type=number]{
     box-sizing: border-box;
 }
 
-button {
+button, input[type=submit] {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
@@ -71,6 +71,10 @@ button {
     height: 100vh;
     grid-template-areas: "input";
 }
+.profil{
+    float:left;
+}
+
 
 .centered {
     grid-area: input;

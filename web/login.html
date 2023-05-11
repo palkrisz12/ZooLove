@@ -19,13 +19,13 @@
 </nav>
 <br>
 
-<form action="welcome.php" method="post">
+<form action="login.php" method="post">
     <div class="container">
 
         <h1><label name="fnevl"><b>Felhasználónév</b></label></h1>
-        <input type="text"  placeholder="Felhasználónév" id="uName" required>
+        <input type="text"  placeholder="Felhasználónév" name="uName" required>
         <h1><label name="pswl"><b>Jelszó</b></label></h1>
-        <input type="password" placeholder="Add meg a jelszót!" id="password"  required>
+        <input type="password" placeholder="Add meg a jelszót!" name="password"  required>
         <button onclick="login()">Bejelentkezem</button>
 
         <?php if (isset($error)): ?>

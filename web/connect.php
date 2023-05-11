@@ -1,31 +1,29 @@
 <?php
-$dbconn = mysqli_connect("localhost", "root", "", "users");
-if(mysqli_connect_error()){
-    die("Hiba:".mysqli_connect_error());
-}
+$dbconn = mysqli_connect("localhost", "root", "", "users") or die ("off");
 
-if(isset($_GET["userName"]) && isset($_GET["password"]) && isset($_GET["firstName"]) && isset($_GET["lastName"]) && isset($_GET["email"]) && isset($_GET["age"])){
+if(isset($_POST["userName"]) && isset($_POST["password"]) && isset($_POST["firstName"]) && isset($_POST["lastName"]) && isset($_POST["email"]) && isset($_POST["age"])){
 
-    $username = $_GET["userName"];
-    $password = $_GET["password"];
-    $firstname = $_GET["firstName"];
-    $lastname = $_GET["lastName"];
-    $email = $_GET["email"];
-    $age = $_GET["age"];
+    $username = $_POST["userName"];
+    $password = $_POST["password"];
+    $firstname = $_POST["firstName"];
+    $lastname = $_POST["lastName"];
+    $email = $_POST["email"];
+    $age = $_POST["age"];
 
-    $sql = "INSERT INTO users (username ,firstname, lastname, age, email, password) VALUES (?, ?, ?, ?, ?, ?);";
-    $stmt = mysqli_prepare($dbconn, $sql);
-    $stmt->bind_param('ssssss', $username, $firstname, $lastname, $age, $email, $password);
+    echo "$username, $password, $firstname, $lastname, $email, $age";
 
-    mysqli_stmt_execute($stmt);
-    if(mysqli_stmt_error($stmt)){
-        die("Hiba".mysqli_stmt_error($stmt));
-    }
+    $sql = "INSERT INTO users (username ,firstname, lastname, age, email, password) VALUES (?, ?, ?, ?, ?, ?)";
+    $stmt = $dbconn -> prepare($sql);
+    $stmt->bind_param('sssiss', $username, $firstname, $lastname, $age, $email, $password);
+
+    $stmt -> execute();
 
 
 
     $id = mysqli_insert_id($dbconn);
     echo json_encode($id);
+
+    header("location:./main.phtml");
 
 } else {
     echo json_encode(array("error" => "Could not connect to database."));

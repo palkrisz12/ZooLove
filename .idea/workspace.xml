@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="Negyedik Commit">
-      <change afterPath="$PROJECT_DIR$/allat profil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/allatprofil.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/himlo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/nolo.html" afterDir="false" />
+    <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="A login session meg mindig vannak problemak, azok nem teljesen erthetoek">
+      <change afterPath="$PROJECT_DIR$/web/allat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatfeltoltes.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/kutya1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/asd.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/kutya.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/lognavbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/profil.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Kapcsolat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kapcsolat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/kapcsolat.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/kapcsolat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/valasz.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/valasz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Kapcsolat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kapcsolat.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Kereses.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/phpinfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/welcome.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +78,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/wamp/bin/php/php5.3.0/php.exe",
+    "last_opened_file_path": "C:/Users/Admin-009/Documents/GitHub/ZooLove/web/allatok",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -83,18 +95,21 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin-009\Documents\GitHub\ZooLove\web\allatok" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Documents\GitHub\ZooLove\web" />
       <recent name="C:\Users\PC\Documents\GitHub\ZooLove\web\”kepek" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Kapcsolat.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZooLove/web/Kapcsolat.html" useBuiltInWebServerPort="true">
+    <configuration name="Kapcsolat.phtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZooLove/web/Kapcsolat.phtml" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Kapcsolat.html" />
+        <item itemvalue="JavaScript Debug.Kapcsolat.phtml" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +129,8 @@
       <workItem from="1676730229757" duration="4062000" />
       <workItem from="1679839171768" duration="607000" />
       <workItem from="1679850743681" duration="1533000" />
+      <workItem from="1683231554040" duration="5213000" />
+      <workItem from="1683830413468" duration="7085000" />
     </task>
     <task id="LOCAL-00001" summary="asd">
       <created>1670766654427</created>
