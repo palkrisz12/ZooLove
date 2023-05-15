@@ -5,29 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b968179-a5e8-4611-902a-0ec575cce727" name="Changes" comment="A login session meg mindig vannak problemak, azok nem teljesen erthetoek">
-      <change afterPath="$PROJECT_DIR$/web/allat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/allatfeltoltes.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/allatok/kutya1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/asd.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/kutya.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/lognavbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/profil.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/AllatOldala.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/LiveSearch.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/kutya2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/kutya3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/kutya4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/kutya5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/lo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/lo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/lo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/lo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/macska1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/macska2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/macska3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/macska4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/oroszlan1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/oroszlan2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/oroszlan3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/oroszlan4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/szarvasmarha1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/szarvasmarha2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/szarvasmarha3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatok/szarvasmarha4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/allatprofil.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/keres.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/keszlet.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Developers.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Developers.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Kapcsolat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kapcsolat.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Kereses.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Main.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/Nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allat profil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Allatok_tomen.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/Allatok_tomen.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Kereses.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/allatfeltoltes.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/allatfeltoltes.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/allatprofil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/himlo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/phpinfo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/welcome.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nolo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/valasz.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/valasz.html" afterDir="false" />
+    </list>
+    <list id="63d88bb4-98d7-4611-8e49-3a5a773a95fc" name="Changes by Ricsi" comment="">
+      <change beforePath="$PROJECT_DIR$/web/Kereses.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/web/Kereses.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +56,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="package.json" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -56,8 +72,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/web/Kereses.phtml">
+      <ranges>
+        <range start1="4" end1="5" start2="4" end2="6" changelist="5b968179-a5e8-4611-902a-0ec575cce727" />
+        <range start1="6" end1="6" start2="7" end2="8" changelist="5b968179-a5e8-4611-902a-0ec575cce727" />
+        <range start1="13" end1="18" start2="15" end2="17" changelist="63d88bb4-98d7-4611-8e49-3a5a773a95fc" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
+    <option name="NEW_PHP_CLASS_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProblemsViewState">
@@ -71,45 +100,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin-009/Documents/GitHub/ZooLove/web/allatok",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin-009/Documents/GitHub/ZooLove/web/allatok&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "CSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;CSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin-009\Documents\GitHub\ZooLove\web\allatok" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\ZooLove\web" />
       <recent name="C:\Users\PC\Documents\GitHub\ZooLove\web" />
       <recent name="C:\Users\PC\Documents\GitHub\ZooLove\web\”kepek" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Kapcsolat.phtml">
     <configuration name="Kapcsolat.phtml" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZooLove/web/Kapcsolat.phtml" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZooLove/web/dashboard.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="himlo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ZooLove/web/himlo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.dashboard.html" />
         <item itemvalue="JavaScript Debug.Kapcsolat.phtml" />
+        <item itemvalue="JavaScript Debug.himlo.html" />
       </list>
     </recent_temporary>
   </component>

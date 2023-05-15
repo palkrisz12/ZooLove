@@ -1,0 +1,37 @@
+<?php
+$db = mysqli_connect("localhost", "root", "", "users") or die("Hiba a csatlakozasnal");
+
+$species = isset($_GET["name"]) ? mysqli_real_escape_string($db, $_GET["name"]) : "";
+$query = "SELECT * FROM animals " .
+    "WHERE species LIKE CONCAT(?, '%')LIMIT 10";
+$stmt = mysqli_prepare($db, $query);
+if (!$stmt)
+    die(mysqli_error($db));
+
+$stmt->bind_param("s", $species);
+
+mysqli_stmt_execute($stmt);
+if (mysqli_stmt_error($stmt))
+    die(mysqli_stmt_error($stmt));
+
+mysqli_stmt_store_result($stmt);
+mysqli_stmt_bind_result($stmt, $id, $name, $species, $sex, $descr, $age, $pic, $userID);
+
+$animals = array();
+
+while (mysqli_stmt_fetch($stmt)) {
+    $animal = array(
+        "id" => $id,
+        "name" => $name,
+        "species" => $species,
+        "pic" => $pic,
+        "sex" => $sex,
+        "age" => $age,
+        "userID" => $userID,
+        "description" => $descr
+    );
+    array_push($animals, $animal);
+}
+header('Content-Type: application/json');
+// visszaadjuk a kereses alapjan megtalalt allatokat JSON formatumban
+echo json_encode($animals);

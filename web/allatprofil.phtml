@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./functions.js"></script>
+    <link rel="stylesheet" href="Nav.css">
+    <title>Profiloldal</title>
+
+
+</head>
+<body>
+<div id="nav-placeholder">
+</div>
+<script>
+    $(function(){
+        $("#nav-placeholder").load("lognavbar.html");
+    });
+</script>
+<div id="Tinder">
+    <?php
+    $id = $_GET["id"];
+    $db = mysqli_connect("localhost", "root", "", "users") or die("Hiba a csatlakozásnál");
+    $query = "SELECT * FROM animals WHERE id = '$id'";
+    $q = mysqli_query($db, $query);
+    $allat = mysqli_fetch_assoc($q);
+    $nev = $allat['name'];
+    $pic = $allat['pic'];
+    $sex = $allat['sex'];
+    $age = $allat['age'];
+    $descr = $allat['descr'];
+    $species = $allat['species'];
+    ?>
+    <br><br><br><br>
+    <div class="image-container">
+        <?php
+        echo "<h1>$nev</h1><img src='$pic' alt='Animal' height='400px'><br>";
+        echo "<h1>Allat faja : $species</h1> <br> <h1>Allat kora : $age</h1> <br> <h1>Allat neme : $sex</h1> <br> <h1>Allat leirasa : $descr</h1>";
+        ?>
+    </div>
+</div>
+</body>
+</html>

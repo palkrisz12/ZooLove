@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="./functions.js"></script>
+    <link rel="stylesheet" href="Nav.css">
+    <style>
+        body {
+            color: black;
+        }
+        #Tinder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .image-container {
+            position: relative;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            margin-top: 10px;
+        }
+        .button-container button {
+            flex: 1;
+        }
+        .button-container button:first-child {
+            margin-right: 5px;
+        }
+        .button-container button:last-child {
+            margin-left: 5px;
+        }
+    </style>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("lognavbar.html");
+        });
+    </script>
+    <title>Kereső</title>
+</head>
+<body>
+<div id="nav-placeholder">
+</div>
+<div id="Tinder">
+    <?php
+    $id = $_GET["id"];
+    $db = mysqli_connect("localhost", "root", "", "users") or die("Hiba a csatlakozásnál");
+    $query = "SELECT * FROM animals WHERE id = '$id'";
+    $q = mysqli_query($db, $query);
+    $allat = mysqli_fetch_assoc($q);
+    $nev = $allat['name'];
+    $pic = $allat['pic'];
+    $link = "./allatprofil.phtml?id=$id";
+    ?>
+    <br><br><br><br>
+    <div class="image-container">
+        <?php
+        echo "<a href='$link'><img src='$pic' alt='Animal' height='400px'></a>";
+        ?>
+    </div>
+    <div class="button-container">
+        <button onclick="moveLeft()">Balra húz</button>
+        <button onclick="moveRight()">Jobbra húz</button>
+    </div>
+</div>
+</body>
+</html>

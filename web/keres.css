@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.left-button {
+    margin-right: 10px;
+}
+
+.right-button {
+    margin-left: 10px;
+}
+#foundedAnimals{
+    background: black;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
